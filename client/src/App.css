@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top,rgb(144, 156, 209),rgb(116, 116, 168),rgb(124, 132, 169));
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 300px;
+  height: auto;
+  text-align: center;
+  background-color: rgb(49, 49, 185);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgb(113, 157, 245);
+}
+.container h2{
+  margin-bottom: 20px;
+  font-family: cursive;
+  color: white;
+  font-weight: 900;
+}
+.container input{
+  width: 95%;
+  height: 20px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px rgb(68, 66, 66);
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.container button{
+  margin-top: 20px;
+  font-family: cursive;
+  font-size: 15px;
+  padding: 3px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(213, 82, 82);
+  color: white;
+}
+.container button:hover{
+ background-color: rgb(182, 151, 151);
+ font-size: 15px;
+ justify-content: center;
+ text-align: center;
+ outline: none;
+ border-radius: 5px;
+}
+.container button Link{
+  text-decoration: none;
+  color: white;
+}
+/* .hcontainer{
+  
+  background-color: aliceblue;
+  color: black;
+} */
